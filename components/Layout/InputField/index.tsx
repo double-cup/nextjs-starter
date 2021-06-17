@@ -25,8 +25,6 @@ interface InputFieldProps<T> {
   type: 'text' | 'password';
 }
 
-const window: Window;
-
 export function InputField<T>({ value, decode, onLeft, onRight, type }: InputFieldProps<T>): ReactElement {
   const [localValue, setLocalValue] = useCurriedState(String(value) ?? '');
   return (
