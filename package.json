@@ -1,7 +1,7 @@
 {
   "name": "fancy",
   "description": "Fancy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Julien Andreu <julienandreu@me.com>",
   "repository": "git@gitlab.com:double-cup/template-barista/fancy.git",
   "license": "MIT",
