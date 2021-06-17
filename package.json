@@ -1,7 +1,7 @@
 {
   "name": "fancy",
   "description": "Fancy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Julien Andreu <julienandreu@me.com>",
   "repository": "git@gitlab.com:double-cup/template-barista/fancy.git",
   "license": "MIT",
@@ -41,7 +41,10 @@
     "prettier": "prettier .",
     "test": "jest",
     "coverage": "jest --coverage",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:major": "yarn release --release-as major",
+    "release:minor": "yarn release --release-as minor",
+    "release:patch": "yarn release --release-as patch"
   },
   "config": {
     "commitizen": {
