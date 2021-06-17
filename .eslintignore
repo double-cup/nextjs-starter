@@ -6,7 +6,7 @@ node_modules
 coverage
 gulpfile.js
 webpack.config.js
-jest.config.js
+jest.config.json
 scripts
 updates
 artifacts
